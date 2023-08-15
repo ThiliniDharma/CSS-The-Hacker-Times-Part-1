@@ -11,6 +11,7 @@ body{
     border-radius:25px;
     padding:20px;
     box-shadow: 5px 10px #ddd;
+    margin:auto;
 }
 .date{
     font-size:0.7em;
@@ -34,9 +35,16 @@ h5{
 p{
     text-align:justify;
 } 
+#navb{
+    position: sticky;
+    top:0;
+    background:aliceblue;
+}
 .f1{
     border-top: 1px solid #E5E7E9; 
     border-bottom: 1px solid #E5E7E9;
+    position: sticky;
+    top: 0;
 }
 nav ul {
     list-style-type:none;    
@@ -74,3 +82,4 @@ hr{
  /* .f2{
    float:left;
  }   */
+ 
